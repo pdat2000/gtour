@@ -2,6 +2,93 @@
   height: 74px;
   &-logo {
     height: 22px;
-    display: block;
+    display: inline-block;
+  }
+  &-menu {
+    display: flex;
+    gap: 37px;
+    color: #fff;
+    &-right {
+      display: flex;
+      gap: 7px;
+    }
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    a {
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      color: #fff;
+    }
+  }
+  &-item {
+    position: relative;
+    &:hover {
+      .header-menu2 {
+        display: block;
+      }
+    }
+  }
+  &-menu2 {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 240px;
+    color: #000;
+    background-color: #fff;
+    margin-left: -20px;
+    border-radius: 4px;
+  }
+
+  &-item2-list {
+    margin: 0px 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    &:hover {
+      a {
+        color: red;
+      }
+    }
+  }
+  &-item2 {
+    &:hover {
+      .header-menu3 {
+        display: block;
+      }
+    }
+  }
+  &-menu3 {
+    display: none;
+    position: absolute;
+    left: calc(100% + 22px);
+    top: 0;
+    margin-left: -20px;
+    list-style: none;
+    width: 240px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  &-item3 {
+    margin: 0px 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    &:hover {
+      a {
+        color: red;
+      }
+    }
   }
 }
