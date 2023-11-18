@@ -1,7 +1,9 @@
+import HomePage from "./pages/HomePage/HomePage";
+
 const App = () => {
   return (
-    <div>
-      app
+    <div className="wrapper">
+      <HomePage />
     </div>
   );
 };
