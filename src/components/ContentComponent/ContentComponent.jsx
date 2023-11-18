@@ -1,9 +1,12 @@
 import './style.scss'
 
-const ContentComponent = ({title, description, children}) => {
+const ContentComponent = ({title, description, children, ...rest}) => {
+  
   return (
-    <div>
-      hello
+    <div className='content' {...rest}>
+      <h2 className='content-title'>{title}</h2>
+      <p className='content-description'>{description}</p>
+      {children}
     </div>
   );
 };

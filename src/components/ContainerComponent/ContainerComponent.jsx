@@ -6,7 +6,7 @@ import './style.scss'
 
 const ContainerComponent = () => {
   return (
-    <div className="content">
+    <div className="container-content">
       <VideoPlayer
         className="video"
         src={Background}
@@ -15,7 +15,9 @@ const ContainerComponent = () => {
       />
       <Container maxWidth="1425">
         <div className='container'>
-          <ContentComponent></ContentComponent>
+          <ContentComponent title='Where do you want to go?' description='Trips, experiences, and places. All in one service.' style={{ marginTop: '300px' }}>
+              hello
+          </ContentComponent>
         </div>
       </Container>
     </div>
