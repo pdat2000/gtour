@@ -4,8 +4,10 @@ import './style.scss'
 
 const HomePage = () => {
   return (
-    <Container maxWidth="sm">
-      <HeaderComponent/>
+    <Container maxWidth="1425">
+      <div className='container'>
+        <HeaderComponent/>
+      </div>
     </Container>
   );
 };

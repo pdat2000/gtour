@@ -7,9 +7,9 @@ const HeaderComponent = () => {
     <Box sx={{ flexGrow: 1 }} className='header'>
       <Grid container spacing={2}>
         <Grid item>
-          <a href="#" className='header-logo'>
+          <Link href="#" className='header-logo'>
             <img src={Logo2} alt="gtour" />
-          </a>
+          </Link>
         </Grid>
         <Grid item>
           <Link href="#">Link</Link>
