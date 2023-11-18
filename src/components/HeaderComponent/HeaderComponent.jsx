@@ -1,5 +1,5 @@
 import Logo1 from '../../assets/images/logo1.png'
-import {Grid, Box, Link, Badge, List} from '@mui/material';
+import {Grid, Box, Link, Badge} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
