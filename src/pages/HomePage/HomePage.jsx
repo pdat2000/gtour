@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import {Container} from '@mui/material';
 import HeaderComponent from '../../components/HeaderComponent/HeaderComponent';
+import ContentComponent from '../../components/ContentComponent/ContentComponent';
 import './style.scss'
 
 const HomePage = () => {
   const[show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const controlNavbar = () => {
-    console.log('scroll', window.scrollY);
     if (window.scrollY > lastScrollY) { 
       setShow(false); 
     } else { 
@@ -25,11 +25,9 @@ const HomePage = () => {
   return (
     <>
       <HeaderComponent show={show}/>
+      <ContentComponent/>
       <Container maxWidth="1425">
         <div className='container'>
-          <div style={{ color:'red' }}>
-            âbc
-          </div>
         </div>
       </Container>
     </>
