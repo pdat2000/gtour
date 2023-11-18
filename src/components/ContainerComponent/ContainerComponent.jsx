@@ -3,6 +3,7 @@ import Background from '../../assets/images/bg.mp4'
 import VideoPlayer from "react-background-video-player"
 import ContentComponent from '../ContentComponent/ContentComponent';
 import './style.scss'
+import FormComponent from '../FormComponent/FormComponent';
 
 const ContainerComponent = () => {
   return (
@@ -15,8 +16,12 @@ const ContainerComponent = () => {
       />
       <Container maxWidth="1425">
         <div className='container'>
-          <ContentComponent title='Where do you want to go?' description='Trips, experiences, and places. All in one service.' style={{ marginTop: '300px' }}>
-              hello
+          <ContentComponent 
+            title='Where do you want to go?' 
+            description='Trips, experiences, and places. All in one service.'  
+            style={{ marginTop: '300px' }}
+          >
+            <FormComponent/>
           </ContentComponent>
         </div>
       </Container>
