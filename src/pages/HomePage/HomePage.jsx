@@ -1,8 +1,12 @@
+import {Container} from '@mui/material';
+import HeaderComponent from '../../components/HeaderComponent/HeaderComponent';
+import './style.scss'
+
 const HomePage = () => {
   return (
-    <div>
-      homepage
-    </div>
+    <Container maxWidth="sm">
+      <HeaderComponent/>
+    </Container>
   );
 };
 
