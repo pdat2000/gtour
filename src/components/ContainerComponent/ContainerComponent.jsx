@@ -9,6 +9,8 @@ import {trips} from '../../utils/index'
 import './style.scss'
 import TripComponent from '../TripComponent/TripComponent';
 import ChooseComponent from '../ChooseComponent/ChooseComponent';
+import Bright from '../../assets/images/bright.jpg'
+import TipComponent from '../TipComponent/TipComponent';
 
 const ContainerComponent = () => {
   return (
@@ -49,6 +51,18 @@ const ContainerComponent = () => {
             style={{ marginTop: '100px'}}
           >
             <ChooseComponent/>
+          </ContentComponent>
+        </div>
+      </Container>
+      <img className="container-bright" src={Bright} alt='bright'/>
+      <Container maxWidth="1425">
+        <div className='container'>
+          <ContentComponent 
+            title='Articles & Tips' 
+            description="'Explore some of the best tips from around the world"  
+            style={{ marginTop: '50px' }}
+          >
+           <TipComponent/>
           </ContentComponent>
         </div>
       </Container>
