@@ -6,6 +6,7 @@ import FormComponent from '../FormComponent/FormComponent';
 import PopularComponent from '../PopularComponent/PopularComponent';
 import { populars } from '../../utils';
 import './style.scss'
+import TripComponent from '../TripComponent/TripComponent';
 
 const ContainerComponent = () => {
   return (
@@ -32,6 +33,13 @@ const ContainerComponent = () => {
             style={{ marginTop: '400px' }}
           >
             <PopularComponent populars={populars}/>
+          </ContentComponent>
+          <ContentComponent 
+            title='Best Value Trips' 
+            description="Best offers trips from us"  
+            style={{ marginTop: '100px'}}
+          >
+            <TripComponent/>
           </ContentComponent>
         </div>
       </Container>

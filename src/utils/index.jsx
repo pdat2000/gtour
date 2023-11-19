@@ -2,6 +2,9 @@ import Popular1 from '../assets/images/popular1.jpg'
 import Popular2 from '../assets/images/popular2.jpg'
 import Popular3 from '../assets/images/popular3.jpg'
 import Popular4 from '../assets/images/popular4.jpg'
+import Trip1 from '../assets/images/trip1.jpeg'
+import Trip2 from '../assets/images/trip2.jpeg'
+import Trip3 from '../assets/images/trip3.jpeg'
 
 export const menus =[
   {
@@ -511,5 +514,39 @@ export const populars = [
     id: 4,
     title: 'London',
     image: Popular4
+  },
+]
+
+export const trips = [
+  {
+    id: 1,
+    title: 'French Autumn',
+    address:'City Tours, Urban',
+    reviews: 4,
+    date: 5,
+    sale: false,
+    price: '5,000',
+    image: Trip1
+  },
+  {
+    id: 2,
+    title: 'Grand Switzerland',
+    address:'Shopping, Mountain, Snow & Ice',
+    reviews: 4,
+    date: 6,
+    sale: false,
+    price: '6,000',
+    image: Trip2
+  },
+  {
+    id: 3,
+    title: 'Discover Japan',
+    address:'City Tours, Iconic',
+    reviews: 4,
+    date: 5,
+    sale: true,
+    price: '5,000',
+    priceOld: '3,000',
+    image: Trip3
   },
 ]
