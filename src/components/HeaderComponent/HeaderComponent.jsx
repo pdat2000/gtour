@@ -9,7 +9,6 @@ import {menus} from '../../utils'
 import './style.scss'
 
 const HeaderComponent = ({show, active}) => {
-  console.log(active);
   return (
     <div>
       {show && <Box sx={{ flexGrow: 1 }} className={`header ${ active ? '' : 'active'}`}>

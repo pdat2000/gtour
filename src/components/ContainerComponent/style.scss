@@ -29,5 +29,12 @@
 @media (max-width: 768px) {
   .container {
     padding: 0;
+    .content:first-child {
+      margin-top: 60px !important;
+    }
+    .content:nth-child(2) {
+      margin-top: 190px !important;
+    }
+    
   }
 }
