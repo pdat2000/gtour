@@ -1,0 +1,19 @@
+.footer1 {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-list {
+    display: flex;
+    gap: 20px;
+  }
+  &-copyright, .footer1-item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ccc;
+  }
+  .footer1-item {
+    cursor: pointer;
+  }
+}

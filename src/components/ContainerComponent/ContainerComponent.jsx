@@ -13,6 +13,7 @@ import ChooseComponent from '../ChooseComponent/ChooseComponent';
 import Bright from '../../assets/images/bright.jpg'
 import TipComponent from '../TipComponent/TipComponent';
 import FooterComponent from '../FooterComponent/FooterComponent';
+import CopyRightComponent from '../CopyRightComponent/CopyRightComponent';
 
 const ContainerComponent = () => {
   return (
@@ -72,6 +73,10 @@ const ContainerComponent = () => {
         <Container maxWidth="1425">
           <div className='container'>
             <FooterComponent images={images}/>
+          </div>
+          <p className="container-footer-line"></p>
+          <div className='container'>
+            <CopyRightComponent/>
           </div>
         </Container>
       </div>
