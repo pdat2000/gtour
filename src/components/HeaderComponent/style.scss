@@ -113,7 +113,10 @@
   .header {
     padding: 0 20px;
     &-menu {
-      display: none
+      display: none;
+      &-right {
+        justify-content: flex-end;
+      }
     }
   }
   .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6.MuiGrid-grid-md-8.css-5oeiha-MuiGrid-root {
