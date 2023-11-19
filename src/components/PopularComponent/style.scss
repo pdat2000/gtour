@@ -33,3 +33,10 @@
     font-family: 'Work Sans', sans-serif;
   }
 }
+
+
+@media (max-width: 768px) {
+  .popular-card {
+    width: 100%;
+  }
+}
