@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import {Container} from '@mui/material';
+import ScrollToTop from "react-scroll-to-top";
 import HeaderComponent from '../../components/HeaderComponent/HeaderComponent';
 import './style.scss'
 import ContainerComponent from '../../components/ContainerComponent/ContainerComponent';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const HomePage = () => {
   const [active, setActive] = useState(true)
@@ -32,6 +33,7 @@ const HomePage = () => {
     <>
       <HeaderComponent show={show} active={active}/>
       <ContainerComponent/>
+      <ScrollToTop smooth component={<ExpandLessIcon style={{ color: '#fff' }}/>} className='scroll' />
     </>
   );
 };
