@@ -28,3 +28,12 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .MuiImageList-root.MuiImageList-standard.css-4oki3e-MuiImageList-root {
+    width: 327px !important;
+  }
+  .footer-social {
+    justify-content: center;
+  }
+}

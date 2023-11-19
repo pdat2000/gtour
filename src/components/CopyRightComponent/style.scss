@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
   &-list {
     display: flex;
     gap: 20px;
@@ -15,5 +16,14 @@
   }
   .footer1-item {
     cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer1 {
+    display: block;
+  }
+  .footer1-list {
+    margin-bottom: 10px;
   }
 }
