@@ -53,7 +53,7 @@ const FooterComponent = ({images}) => {
       </Grid>
       <Grid item xs={4} sm={4} md={4}>
         <h2 className="footer-title">Recent Trips</h2>
-        <ImageList sx={{ width: 405, height: 269 }} cols={3} rowHeight={126}>
+        <ImageList sx={{ width: '100%', height: 269 }} cols={3} rowHeight={126}>
           {images.map((image) => (
             <ImageListItem key={image.image}>
               <img
