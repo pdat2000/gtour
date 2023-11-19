@@ -17,6 +17,7 @@ const FormComponent = () => {
     setShow(!show);
   }
   return (
+    <>
     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}  style={{ padding: '20px 20px 0' }}>
       <Grid item  sm={3} sx={1}>
         <InputComponent placeholder='Destination, city' icon={<SearchIcon/>} />
@@ -71,6 +72,8 @@ const FormComponent = () => {
             >Advanced Search</ButtonComponent>
       </Grid>
     </Grid>
+    {!show &&  <div style={{ background: 'transparent', height:'46.25px' }}></div>}
+    </>
   );
 };
 

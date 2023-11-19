@@ -37,7 +37,7 @@ const ContainerComponent = () => {
           <ContentComponent 
             title='Popular Destinations' 
             description="'World's best tourist destinations"  
-            style={{ marginTop: '400px' }}
+            style={{ marginTop: '300px' }}
           >
             <PopularComponent populars={populars}/>
           </ContentComponent>
