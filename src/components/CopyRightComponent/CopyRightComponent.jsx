@@ -6,7 +6,7 @@ const CopyRightComponent = () => {
       <div className="footer1-list">
         <div className="footer1-item">Home</div>
         <div className="footer1-item">Tour</div>
-        <div className="footer1-item">Bloc</div>
+        <div className="footer1-item">Blog</div>
         <div className="footer1-item">Purchase Theme</div>
       </div>
     </div>

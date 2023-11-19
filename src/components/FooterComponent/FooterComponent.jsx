@@ -61,6 +61,7 @@ const FooterComponent = ({images}) => {
                 src={`${image.image}?w=126&h=126&fit=crop&auto=format`}
                 alt={image.id}
                 loading="lazy"
+                style={{ cursor:'pointer' }}
               />
     </ImageListItem>
   ))}
