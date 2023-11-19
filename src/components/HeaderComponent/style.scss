@@ -7,7 +7,7 @@
   transform: translateY(0);
   transition: all 0.2s linear;
   position: fixed;
-  z-index: 40;
+  z-index: 100;
   &-logo {
     height: 22px;
     display: inline-block;
@@ -92,5 +92,19 @@
     height: 14px;
     background:transparent;
     cursor: pointer;;
+  }
+}
+.header.active.MuiBox-root.header.active.MuiBox-root.css-i9gxme{
+  background-color: #fff;
+  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  transition: all 0.2s linear;
+  .header-list a{
+    color: #000;
+  }
+  .header-list svg{
+    color: #000;
+  }
+  .header-menu-right svg {
+    color: #000 !important;
   }
 }

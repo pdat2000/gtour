@@ -5,6 +5,7 @@ import './style.scss'
 import ContainerComponent from '../../components/ContainerComponent/ContainerComponent';
 
 const HomePage = () => {
+  const [active, setActive] = useState(true)
   const[show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const controlNavbar = () => {
@@ -12,6 +13,11 @@ const HomePage = () => {
       setShow(false); 
     } else { 
       setShow(true);  
+    }
+    if(window.scrollY > 75){
+      setActive(false)
+    }else {
+      setActive(true)
     }
     setLastScrollY(window.scrollY); 
   };
@@ -24,12 +30,8 @@ const HomePage = () => {
   }, [lastScrollY]);
   return (
     <>
-      <HeaderComponent show={show}/>
+      <HeaderComponent show={show} active={active}/>
       <ContainerComponent/>
-      <Container maxWidth="1425">
-        <div className='container'>
-        </div>
-      </Container>
     </>
   );
 };

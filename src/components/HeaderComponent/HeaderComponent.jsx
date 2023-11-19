@@ -1,4 +1,5 @@
 import Logo1 from '../../assets/images/logo1.png'
+import Logo2 from '../../assets/images/logo2.png'
 import {Grid, Box, Link, Badge} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -7,14 +8,15 @@ import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 import {menus} from '../../utils'
 import './style.scss'
 
-const HeaderComponent = ({show}) => {
+const HeaderComponent = ({show, active}) => {
+  console.log(active);
   return (
     <div>
-      {show && <Box sx={{ flexGrow: 1 }} className='header'>
+      {show && <Box sx={{ flexGrow: 1 }} className={`header ${ active ? '' : 'active'}`}>
         <Grid container spacing={2} style={{ padding: '18px 0 26px' }}>
           <Grid item xs={6} md={4}>
             <Link href="/" className='header-logo'>
-            <img src={Logo1} alt="gtour" />
+            <img src={active ? Logo1: Logo2} alt="gtour" />
             </Link>
           </Grid>
           <Grid item xs={6} md={8} style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start' }}>
