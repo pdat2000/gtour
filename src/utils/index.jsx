@@ -163,45 +163,40 @@ export const menus =[
     ]
   },
   {
-    id: 2,
-    name: 'Tours',
+    id: 3,
+    name: 'Booking',
     link: '/',
     items: [
       {
         id: 1,
         link: '/',
-        name: 'Tour Classic Fullwidth',
+        name: 'Online Payment for Booking',
         items: [
           {
             id: 1,
-            name:'2 Columns',
+            name:'Variable Tour Pricing',
             link:'/'
           },
           {
             id: 2,
-            name:'3 Columns',
+            name:'Simple Tour Pricing',
             link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
+          }
         ]
       },
       {
         id: 2,
         link: '/',
-        name: 'Tour Classic Sidebar',
+        name: 'Custom Booking Form',
         items: [
           {
             id: 1,
-            name: 'Right Sidebar',
+            name: 'Booking Form + Sub Tour Date',
             link: '/'
           },
           {
             id: 2,
-            name: 'Left Sidebar',
+            name: 'Booking Form + Custom Date',
             link: '/'
           },
         ]
@@ -209,72 +204,43 @@ export const menus =[
       {
         id: 3,
         link: '/',
-        name: 'Tour Grid Fullwidth',
+        name: 'Tour Durations',
         items: [
           {
             id: 1,
-            name:'2 Columns',
+            name:'Single Day Tour',
             link:'/'
           },
           {
             id: 2,
-            name:'3 Columns',
+            name:'Multiple Days Tour',
             link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
+          }
         ]
       },
       {
         id: 4,
         link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Custom Booking URL for Affiliate Tour',
       },
       {
         id: 5,
         link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Custom Booking using custom HTML & Shortcode',
       },
       {
         id: 6,
         link: '/',
-        name: 'Tour Header Type',
+        name: 'Header Options',
         items: [
           {
             id: 1,
-            name: 'Featured Image',
+            name: 'Standard Background Header',
             link: '/'
           },
           {
             id: 2,
-            name: 'Video',
+            name: 'Video Background Header',
             link: '/'
           },
         ]
@@ -282,16 +248,16 @@ export const menus =[
       {
         id: 7,
         link: '/',
-        name: 'Tour Categories',
+        name: 'Layout Options',
         items: [
           {
             id: 1,
-            name: 'Rural',
+            name: 'With Sidebar',
             link: '/'
           },
           {
             id: 2,
-            name: 'Snow & Ice',
+            name: 'Fullwidth',
             link: '/'
           },
         ]
@@ -299,682 +265,222 @@ export const menus =[
     ]
   },
   {
-    id: 2,
-    name: 'Tours',
+    id: 4,
+    name: 'Destinations',
     link: '/',
     items: [
       {
         id: 1,
         link: '/',
-        name: 'Tour Classic Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Destination Fullwidth',
       },
       {
         id: 2,
         link: '/',
-        name: 'Tour Classic Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Destination + Video Header',
       },
       {
         id: 3,
         link: '/',
-        name: 'Tour Grid Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Destination Right Sidebar',
       },
       {
         id: 4,
         link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Destination Left Sidebar',
       },
       {
         id: 5,
         link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Single Destination',
       },
       {
         id: 6,
         link: '/',
-        name: 'Tour Header Type',
-        items: [
-          {
-            id: 1,
-            name: 'Featured Image',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Video',
-            link: '/'
-          },
-        ]
+        name: 'Single Destination + Video',
+      }
+    ]
+  },
+  {
+    id: 5,
+    name: 'Pages',
+    link: '/',
+    items: [
+      {
+        id: 1,
+        link: '/',
+        name: 'About Us',
+      },
+      {
+        id: 2,
+        link: '/',
+        name: 'Contact Us',
+      },
+      {
+        id: 3,
+        link: '/',
+        name: 'FAQs',
+      },
+      {
+        id: 4,
+        link: '/',
+        name: 'Gallery',
+      },
+      {
+        id: 5,
+        link: '/',
+        name: 'Page Fullwidth',
+      },
+      {
+        id: 6,
+        link: '/',
+        name: 'Page + Video Background Header',
       },
       {
         id: 7,
         link: '/',
-        name: 'Tour Categories',
-        items: [
-          {
-            id: 1,
-            name: 'Rural',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Snow & Ice',
-            link: '/'
-          },
-        ]
+        name: 'Page Right Sidebar',
+      },
+      {
+        id: 8,
+        link: '/',
+        name: 'Page Left Sidebar',
       },
     ]
   },
   {
-    id: 2,
-    name: 'Tours',
+    id: 6,
+    name: 'Blog',
     link: '/',
     items: [
       {
         id: 1,
         link: '/',
-        name: 'Tour Classic Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Blog Right Sidebar',
       },
       {
         id: 2,
         link: '/',
-        name: 'Tour Classic Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Blog Left Sidebar',
       },
       {
         id: 3,
         link: '/',
-        name: 'Tour Grid Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Blog Fullwidth',
       },
       {
         id: 4,
         link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Blog Grid Right Sidebar',
       },
       {
         id: 5,
         link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Blog Grid Left Sidebar',
       },
       {
         id: 6,
         link: '/',
-        name: 'Tour Header Type',
-        items: [
-          {
-            id: 1,
-            name: 'Featured Image',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Video',
-            link: '/'
-          },
-        ]
+        name: 'Blog Grid Fullwidth',
       },
       {
         id: 7,
         link: '/',
-        name: 'Tour Categories',
-        items: [
-          {
-            id: 1,
-            name: 'Rural',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Snow & Ice',
-            link: '/'
-          },
-        ]
+        name: 'Blog Full + Grid Right Sidebar',
+      },
+      {
+        id: 8,
+        link: '/',
+        name: 'Blog Full + Grid Left Sidebar',
+      },
+      {
+        id: 9,
+        link: '/',
+        name: 'Blog Full + Grid Fullwidth',
       },
     ]
   },
   {
-    id: 2,
-    name: 'Tours',
+    id: 7,
+    name: 'Shortcodes',
     link: '/',
     items: [
       {
         id: 1,
         link: '/',
-        name: 'Tour Classic Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Accordion & Toggles',
       },
       {
         id: 2,
         link: '/',
-        name: 'Tour Classic Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Alert Boxes',
       },
       {
         id: 3,
         link: '/',
-        name: 'Tour Grid Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Animated Content',
       },
       {
         id: 4,
         link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Buttons & Social Icons',
       },
       {
         id: 5,
         link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Columns',
       },
       {
         id: 6,
         link: '/',
-        name: 'Tour Header Type',
-        items: [
-          {
-            id: 1,
-            name: 'Featured Image',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Video',
-            link: '/'
-          },
-        ]
+        name: 'Google Maps',
       },
       {
         id: 7,
         link: '/',
-        name: 'Tour Categories',
-        items: [
-          {
-            id: 1,
-            name: 'Rural',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Snow & Ice',
-            link: '/'
-          },
-        ]
+        name: 'Image Frame & Animation',
+      },
+      {
+        id: 8,
+        link: '/',
+        name: 'Image Teasers',
+      },
+      {
+        id: 9,
+        link: '/',
+        name: 'Pricing Tables',
+      },
+      {
+        id: 10,
+        link: '/',
+        name: 'Tabs',
       },
     ]
   },
   {
-    id: 2,
-    name: 'Tours',
+    id: 8,
+    name: 'Shop',
     link: '/',
     items: [
       {
         id: 1,
         link: '/',
-        name: 'Tour Classic Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Shop Fullwidth',
       },
       {
         id: 2,
         link: '/',
-        name: 'Tour Classic Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
+        name: 'Shop Sidebar',
       },
       {
         id: 3,
         link: '/',
-        name: 'Tour Grid Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
+        name: 'Single Product Fullwidth',
       },
       {
         id: 4,
         link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 5,
-        link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 6,
-        link: '/',
-        name: 'Tour Header Type',
-        items: [
-          {
-            id: 1,
-            name: 'Featured Image',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Video',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 7,
-        link: '/',
-        name: 'Tour Categories',
-        items: [
-          {
-            id: 1,
-            name: 'Rural',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Snow & Ice',
-            link: '/'
-          },
-        ]
-      },
-    ]
-  },
-  {
-    id: 2,
-    name: 'Tours',
-    link: '/',
-    items: [
-      {
-        id: 1,
-        link: '/',
-        name: 'Tour Classic Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
-      },
-      {
-        id: 2,
-        link: '/',
-        name: 'Tour Classic Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 3,
-        link: '/',
-        name: 'Tour Grid Fullwidth',
-        items: [
-          {
-            id: 1,
-            name:'2 Columns',
-            link:'/'
-          },
-          {
-            id: 2,
-            name:'3 Columns',
-            link:'/'
-          },
-          {
-            id: 3,
-            name:'4 Columns',
-            link:'/'
-          },
-        ]
-      },
-      {
-        id: 4,
-        link: '/',
-        name: 'Tour Grid Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 5,
-        link: '/',
-        name: 'Tour List Sidebar',
-        items: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Left Sidebar',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 6,
-        link: '/',
-        name: 'Tour Header Type',
-        items: [
-          {
-            id: 1,
-            name: 'Featured Image',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Video',
-            link: '/'
-          },
-        ]
-      },
-      {
-        id: 7,
-        link: '/',
-        name: 'Tour Categories',
-        items: [
-          {
-            id: 1,
-            name: 'Rural',
-            link: '/'
-          },
-          {
-            id: 2,
-            name: 'Snow & Ice',
-            link: '/'
-          },
-        ]
+        name: 'Single Product With Sidebar',
       },
     ]
   },
