@@ -17,17 +17,17 @@ const FormComponent = () => {
     setShow(!show);
   }
   return (
-    <Grid container spacing={1}  style={{ padding: '20px 20px 0' }}>
-      <Grid item xs={3}>
+    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}  style={{ padding: '20px 20px 0' }}>
+      <Grid item  sm={3} sx={1}>
         <InputComponent placeholder='Destination, city' icon={<SearchIcon/>} />
       </Grid>
-      <Grid item xs={3}>
+      <Grid item  sm={3} sx={1}>
         <SelectComponent data={months} icon={CalendarMonthIcon} placeholder='Any Month'/>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item  sm={3} sx={1}>
         <SelectComponent data={sorts} icon={ImportExportIcon} placeholder='Sort By Date'/>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item  sm={3} sx={1}>
         <ButtonComponent
            variant='contained' 
            sx={
@@ -46,18 +46,18 @@ const FormComponent = () => {
       </Grid>
       {show &&
       <Fragment>
-        <Grid item xs={3}>
+        <Grid item  sm={3} sx={1}>
           <SelectComponent data={categories} icon={ExpandMoreIcon} placeholder='All Categories'/>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item  sm={3} sx={1}>
           <SelectComponent data={cities} icon={ExpandMoreIcon} placeholder='Any Destinations'/>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item  sm={3} sx={1}>
           <InputComponent placeholder='Max budget ex. 500' icon={<AttachMoneyIcon/>} />
         </Grid>
-        <Grid item xs={3}></Grid>
+        <Grid item  sm={3} sx={1}></Grid>
       </Fragment>}
-      <Grid item xs={3}>
+      <Grid item  sm={3} sx={1}>
         <ButtonComponent 
           variant='text'
           sx={
