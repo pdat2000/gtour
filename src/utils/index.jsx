@@ -1,3 +1,8 @@
+import Popular1 from '../assets/images/popular1.jpg'
+import Popular2 from '../assets/images/popular2.jpg'
+import Popular3 from '../assets/images/popular3.jpg'
+import Popular4 from '../assets/images/popular4.jpg'
+
 export const menus =[
   {
     id: 1,
@@ -483,5 +488,28 @@ export const menus =[
         name: 'Single Product With Sidebar',
       },
     ]
+  },
+]
+
+export const populars = [
+  {
+    id: 1,
+    title: 'Tokyo',
+    image: Popular1
+  },
+  {
+    id: 2,
+    title: 'Seoul',
+    image: Popular2
+  },
+  {
+    id: 3,
+    title: 'Paris',
+    image: Popular3
+  },
+  {
+    id: 4,
+    title: 'London',
+    image: Popular4
   },
 ]
