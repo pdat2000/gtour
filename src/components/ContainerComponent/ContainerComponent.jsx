@@ -2,8 +2,8 @@ import {Container} from '@mui/material';
 import Background from '../../assets/images/bg.mp4'
 import VideoPlayer from "react-background-video-player"
 import ContentComponent from '../ContentComponent/ContentComponent';
-import './style.scss'
 import FormComponent from '../FormComponent/FormComponent';
+import './style.scss'
 
 const ContainerComponent = () => {
   return (
