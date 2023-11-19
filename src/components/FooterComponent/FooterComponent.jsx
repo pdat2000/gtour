@@ -14,12 +14,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const FooterComponent = ({images}) => {
   return (
     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} style={{ paddingTop:'50px', paddingBottom: '50px' }}>
-      <Grid item xs={2} sm={4} md={4}>
+      <Grid item xs={4} sm={4} md={4}>
           <h2 className="footer-title">Our Awards</h2>
           <p className="footer-description">London is a megalopolis of people, ideas and frenetic energy. The capital and largest city of the United Kingdom.</p>
           <img src={LogoFooter} alt="footer" className="footer-logo"/>
       </Grid>
-      <Grid item xs={2} sm={4} md={4}>
+      <Grid item xs={4} sm={4} md={4}>
           <h2 className="footer-title">Contact Info</h2>
           <div className="footer-description">
             <PhoneAndroidIcon style={{ height:'19px' }}/>
@@ -51,7 +51,7 @@ const FooterComponent = ({images}) => {
             </div>
           </div>
       </Grid>
-      <Grid item xs={2} sm={4} md={4}>
+      <Grid item xs={4} sm={4} md={4}>
         <h2 className="footer-title">Recent Trips</h2>
         <ImageList sx={{ width: 405, height: 269 }} cols={3} rowHeight={126}>
           {images.map((image) => (

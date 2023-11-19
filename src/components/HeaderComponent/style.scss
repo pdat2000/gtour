@@ -108,3 +108,15 @@
     color: #000 !important;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+    &-menu {
+      display: none
+    }
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-6.MuiGrid-grid-md-8.css-5oeiha-MuiGrid-root {
+    justify-content: flex-end !important;
+  }
+}

@@ -8,7 +8,7 @@ const TripComponent = ({trips}) => {
     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} style={{ marginTop:'50px' }}>
       {
         trips.map((trip)=>{
-          return ( <Grid item xs={2} sm={4} md={4} sx={{ '&:hover': {
+          return ( <Grid item xs={4} sm={4} md={4} sx={{ '&:hover': {
             transform: 'translateY(-2%)',
             transition: 'all 0.2s linear',
           } }}
