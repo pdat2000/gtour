@@ -1,10 +1,9 @@
 import './style.scss'
 import {Card, CardMedia, CardContent, Rating, CardActions, Grid} from '@mui/material';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import Trip1 from '../../assets/images/trip1.jpeg'
-import {trips} from '../../utils/index'
 
-const TripComponent = () => {
+
+const TripComponent = ({trips}) => {
   return (
     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} style={{ marginTop:'50px' }}>
       {

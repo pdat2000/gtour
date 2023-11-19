@@ -5,6 +5,7 @@ import ContentComponent from '../ContentComponent/ContentComponent';
 import FormComponent from '../FormComponent/FormComponent';
 import PopularComponent from '../PopularComponent/PopularComponent';
 import { populars } from '../../utils';
+import {trips} from '../../utils/index'
 import './style.scss'
 import TripComponent from '../TripComponent/TripComponent';
 
@@ -39,7 +40,7 @@ const ContainerComponent = () => {
             description="Best offers trips from us"  
             style={{ marginTop: '100px'}}
           >
-            <TripComponent/>
+            <TripComponent trips={trips}/>
           </ContentComponent>
         </div>
       </Container>
