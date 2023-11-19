@@ -8,6 +8,7 @@ import { populars } from '../../utils';
 import {trips} from '../../utils/index'
 import './style.scss'
 import TripComponent from '../TripComponent/TripComponent';
+import ChooseComponent from '../ChooseComponent/ChooseComponent';
 
 const ContainerComponent = () => {
   return (
@@ -41,6 +42,13 @@ const ContainerComponent = () => {
             style={{ marginTop: '100px'}}
           >
             <TripComponent trips={trips}/>
+          </ContentComponent>
+          <ContentComponent 
+            title='Why Choose Us' 
+            description="Here are reasons you should plan trip with us"  
+            style={{ marginTop: '100px'}}
+          >
+            <ChooseComponent/>
           </ContentComponent>
         </div>
       </Container>

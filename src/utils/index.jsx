@@ -5,6 +5,9 @@ import Popular4 from '../assets/images/popular4.jpg'
 import Trip1 from '../assets/images/trip1.jpeg'
 import Trip2 from '../assets/images/trip2.jpeg'
 import Trip3 from '../assets/images/trip3.jpeg'
+import Choose1 from '../assets/images/choose1.png'
+import Choose2 from '../assets/images/choose2.png'
+import Choose3 from '../assets/images/choose3.png'
 
 export const menus =[
   {
@@ -548,5 +551,26 @@ export const trips = [
     price: '5,000',
     priceOld: '3,000',
     image: Trip3
+  },
+]
+
+export const chooses = [
+  {
+    id: 1,
+    image: Choose1,
+    title: 'Handpicked Hotel',
+    description: 'Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa'
+  },
+  {
+    id: 2,
+    image: Choose2,
+    title: 'World Class Service',
+    description: 'Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa'
+  },
+  {
+    id: 3,
+    image: Choose3,
+    title: 'Best Price Guarantee',
+    description: 'Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa'
   },
 ]
