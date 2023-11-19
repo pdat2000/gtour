@@ -8,6 +8,9 @@ import Trip3 from '../assets/images/trip3.jpeg'
 import Choose1 from '../assets/images/choose1.png'
 import Choose2 from '../assets/images/choose2.png'
 import Choose3 from '../assets/images/choose3.png'
+import Tip1 from '../assets/images/tip1.jpg'
+import Tip2 from '../assets/images/tip2.jpeg'
+import Tip3 from '../assets/images/tip3.jpg'
 
 export const menus =[
   {
@@ -572,5 +575,29 @@ export const chooses = [
     image: Choose3,
     title: 'Best Price Guarantee',
     description: 'Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa'
+  },
+]
+
+export const tips = [
+  {
+    id: 1,
+    title: 'Memorial Day to Someone Told Me to Travel',
+    description:'Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small batch freegan sed.',
+    date: 'DECEMBER 10, 2016',
+    image: Tip1
+  },
+  {
+    id: 2,
+    title: '7 Tips For Nomads On A Budget Trips',
+    description:'Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small batch freegan sed.',
+    date: 'DECEMBER 10, 2016',
+    image: Tip2
+  },
+  {
+    id: 3,
+    title: 'Taking A Travel Blog Victory Lap',
+    description:'Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small batch freegan sed.',
+    date: 'DECEMBER 10, 2016',
+    image: Tip3
   },
 ]
