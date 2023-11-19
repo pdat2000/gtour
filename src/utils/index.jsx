@@ -634,3 +634,35 @@ export const images = [
     image: Footer6
   },
 ]
+
+export const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+];
+
+export const sorts = [
+  'Price Low to High',
+  'Price High to Low',
+  'Sort By Popularity',
+  'Sort By Review Score',
+];
+
+export const categories = [
+  'Mountain',
+  'Rural',
+  'Snow & Ice',
+  'Wildlife'
+]
+
+export const cities = [
+  'Tokyo',
+  'Seoul',
+  'Paris',
+  'London',
+  'Venice',
+  'Miami',
+  'Rome',
+  'California'
+]
