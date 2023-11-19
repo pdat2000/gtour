@@ -11,6 +11,12 @@ import Choose3 from '../assets/images/choose3.png'
 import Tip1 from '../assets/images/tip1.jpg'
 import Tip2 from '../assets/images/tip2.jpeg'
 import Tip3 from '../assets/images/tip3.jpg'
+import Footer1 from '../assets/images/footer1.jpg'
+import Footer2 from '../assets/images/footer2.jpg'
+import Footer3 from '../assets/images/footer3.jpg'
+import Footer4 from '../assets/images/footer4.jpg'
+import Footer5 from '../assets/images/footer5.jpg'
+import Footer6 from '../assets/images/footer6.jpg'
 
 export const menus =[
   {
@@ -599,5 +605,32 @@ export const tips = [
     description:'Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small batch freegan sed.',
     date: 'DECEMBER 10, 2016',
     image: Tip3
+  },
+]
+
+export const images = [
+  {
+    id: 1,
+    image: Footer1
+  },
+  {
+    id: 2,
+    image: Footer2
+  },
+  {
+    id: 3,
+    image: Footer3
+  },
+  {
+    id: 4,
+    image: Footer4
+  },
+  {
+    id: 5,
+    image: Footer5
+  },
+  {
+    id: 6,
+    image: Footer6
   },
 ]

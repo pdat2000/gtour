@@ -6,11 +6,13 @@ import FormComponent from '../FormComponent/FormComponent';
 import PopularComponent from '../PopularComponent/PopularComponent';
 import { populars } from '../../utils';
 import {trips} from '../../utils/index'
+import {images} from '../../utils/index'
 import './style.scss'
 import TripComponent from '../TripComponent/TripComponent';
 import ChooseComponent from '../ChooseComponent/ChooseComponent';
 import Bright from '../../assets/images/bright.jpg'
 import TipComponent from '../TipComponent/TipComponent';
+import FooterComponent from '../FooterComponent/FooterComponent';
 
 const ContainerComponent = () => {
   return (
@@ -66,6 +68,13 @@ const ContainerComponent = () => {
           </ContentComponent>
         </div>
       </Container>
+      <div className='container-footer'>
+        <Container maxWidth="1425">
+          <div className='container'>
+            <FooterComponent images={images}/>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };
